@@ -51,6 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <h2>Registrasi</h2>
+
     <?php if ($error !== ''): ?>
         <p style="color: red;"><?php echo htmlspecialchars($error); ?></p>
     <?php endif; ?>
@@ -61,6 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <a href="login.php">Login di sini</a>
         </p>
     <?php endif; ?>
+    
     <form method="POST" action="">
         <label>Nama lengkap:</label><br>
         <input type="text" name="nama_lengkap" required><br>
