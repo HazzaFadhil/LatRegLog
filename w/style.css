@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif, Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 0; /*ruang di luar elemen, memisahkan elemen satu dengan yang lain. */
+    padding: 24px; /*ruang di dalam elemen, antara konten dan border. */
+}
+
+main {
+    max-width: 400px;
+    margin: 40px auto;
+}
+
+.form-card {
+    padding: 24px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: rgb(121, 196, 209);
+}
+
+.form-card h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.field-group {
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.field-group label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.field-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: none;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
