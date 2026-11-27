@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrasi</title>
     <style>
-        * {
+        /* * {
             box-sizing: border-box;
         }
 
@@ -126,10 +126,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         .footer-link {
             margin-top: 16px;
-            margin-bottom: 0;
-        }
+            margin-bottom: 0; 
+        } */
     </style>
 </head>
+
 <body>
     <main>
         <section class="form-card" aria-labelledby="judul-registrasi">
